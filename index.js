@@ -125,3 +125,12 @@ for (let i = 0; i < totalMonths; i++) {
 
 // Calculate average change
 let averageChange = totalChange / (totalMonths - 1);
+
+// Print results
+console.log('Financial Analysis');
+console.log('----------------');
+console.log(`Total Months: ${totalMonths}`);
+console.log(`Total: $${totalProfitLoss}`);
+console.log(`Average Change: ${averageChange.toFixed(2)}`);
+console.log(`Greatest Increase in Profits/Losses: ${greatestIncrease[0]} ($${greatestIncrease[1]})`);
+console.log(`Greatest Decrease in Profits/Losses: ${greatestDecrease[0]} ($${greatestDecrease[1]})`);

@@ -102,3 +102,8 @@ for (let i = 0; i < totalMonths; i++) {
 
   // Add to total profit/loss
   totalProfitLoss += currentValue;
+
+  // Calculate change from previous month
+  if (i > 0) {
+    let change = currentValue - previousMonthValue;
+    totalChange += change;

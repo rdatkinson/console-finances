@@ -94,3 +94,8 @@ let previousMonthValue = finances[0][1];
 let totalChange = 0;
 let greatestIncrease = [null, 0];
 let greatestDecrease = [null, 0];
+
+// Iterate over the finances array
+for (let i = 0; i < totalMonths; i++) {
+  let month = finances[i][0];
+  let currentValue = finances[i][1];

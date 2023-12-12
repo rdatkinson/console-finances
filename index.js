@@ -99,3 +99,6 @@ let greatestDecrease = [null, 0];
 for (let i = 0; i < totalMonths; i++) {
   let month = finances[i][0];
   let currentValue = finances[i][1];
+
+  // Add to total profit/loss
+  totalProfitLoss += currentValue;

@@ -86,3 +86,11 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+// Initialise variables
+let totalMonths = finances.length;
+let totalProfitLoss = 0;
+let previousMonthValue = finances[0][1];
+let totalChange = 0;
+let greatestIncrease = [null, 0];
+let greatestDecrease = [null, 0];

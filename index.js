@@ -107,3 +107,21 @@ for (let i = 0; i < totalMonths; i++) {
   if (i > 0) {
     let change = currentValue - previousMonthValue;
     totalChange += change;
+
+    // Check for greatest increase
+    if (change > greatestIncrease[1]) {
+      greatestIncrease = [month, change];
+    }
+
+    // Check for greatest decrease
+    if (change < greatestDecrease[1]) {
+      greatestDecrease = [month, change];
+    }
+
+    // Update previous month value for next iteration
+    previousMonthValue = currentValue;
+  }
+}
+
+// Calculate average change
+let averageChange = totalChange / (totalMonths - 1);

@@ -1,7 +1,7 @@
 # console-finances
 
 ## Description
-This project is designed to work out over a period of 7 years which a company experienced greatest profits and loss, down to the specific month that they experienced both. I used a JavaScript array, as well as accurate and descriptive variables, to get the result.
+This project is designed to work out over a period of 7 years which a company experienced greatest profits and loss, down to the specific month that they experienced both. I used a JavaScript array, as well as accurate and descriptive variables, to get the result. You can view the deployed application here: https://rdatkinson.github.io/console-finances/
 
 ## Installation
 N/A
